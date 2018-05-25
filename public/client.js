@@ -1,3 +1,4 @@
+'use strict';
 
 var shoppingItemTemplate = (
   '<li class="js-shopping-item">' +

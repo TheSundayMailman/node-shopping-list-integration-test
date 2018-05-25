@@ -1,3 +1,5 @@
+'use strict';
+
 const express = require('express');
 const router = express.Router();
 
@@ -75,6 +77,6 @@ router.put('/:id', jsonParser, (req, res) => {
     ingredients: req.body.ingredients
   });
   res.status(204).end();
-})
+});
 
 module.exports = router;
